@@ -24,7 +24,7 @@ describe('Sign in page specs', function() {
 
   it('Attempt to sign in with no password', function () {
 
-    cy.contains('Log In').click()
+    cy.contains('Sign in').click()
 
     // enter in email only
     cy.get('input[id="user"]').type(email)
@@ -37,9 +37,9 @@ describe('Sign in page specs', function() {
     cy.get('span[class="field-validation-error"]').contains('Please enter your password.')
   })
 
-  it('Attempt to sign in with no password', function () {
+  it('Attempt to sign in with no email', function () {
 
-    cy.contains('Log In').click()
+    cy.contains('Sign in').click()
 
     // enter in email only
     cy.get('input[id="user"]').type('{enter}')
