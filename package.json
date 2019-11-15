@@ -1,0 +1,15 @@
+{
+  "name": "gather_exercise",
+  "version": "1.0.0",
+  "description": "exercise for gather",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Zach Smith",
+  "license": "ISC"
+}
